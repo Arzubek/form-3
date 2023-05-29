@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.form-content
+{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.form-content h1,
+.form-item
+{
+    padding: 5px 10px;
+}
+
+.form-content h1
+{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.form-item label
+{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.form-item input
+{
+    display: block;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+}
+
+input:focus 
+{
+    border-bottom: 2px solid royalblue;
+}
+
+.form-item:nth-child(3)
+{
+    text-align: end;
+}
+
+.form-item a
+{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.submit
+{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    background: linear-gradient(45deg,rgb(82, 116, 221), rgb(24, 50, 128));
+    border-radius: 15px;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.form-content p
+{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.other
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.other a
+{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+    text-transform: capitalize;
+    color: royalblue;
+    margin: 0px auto;
+}
+
+.other a:active
+{
+    background-color: rgba(0, 0, 0, .3);
+}
+i {
+    width: 20px;
+}
